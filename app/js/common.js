@@ -1,5 +1,16 @@
 $(function() {
 
+
+	$('.pol').on('click', function(){
+		$('.politic_parent_popup, .politic_popup').css('display', 'block');
+	});
+
+	$('.politic_close, .politic_parent_popup').on('click', function(){
+		$('.politic_parent_popup, .politic_popup').css('display', 'none');
+	});
+
+
+
 	$('.bn').on('click', function(){
 		$('.parent_popup, .popup').css('display', 'block');
 	});
