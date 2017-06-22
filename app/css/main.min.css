@@ -3,36 +3,36 @@
   font-family: "HELVETICANEUECYR-ROMAN";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/HELVETICANEUECYR-ROMAN/HELVETICANEUECYR-ROMAN.eot");
-  src: url("../fonts/HELVETICANEUECYR-ROMAN/HELVETICANEUECYR-ROMAN.eot?#iefix") format("embedded-opentype"), url("../fonts/HELVETICANEUECYR-ROMAN/HELVETICANEUECYR-ROMAN.woff") format("woff"), url("../fonts/HELVETICANEUECYR-ROMAN/HELVETICANEUECYR-ROMAN.ttf") format("truetype"); }
+  src: url("../fonts/HELVETICANEUECYR-ROMAN/HelveticaNeueCyr-Roman.eot");
+  src: url("../fonts/HELVETICANEUECYR-ROMAN/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/HELVETICANEUECYR-ROMAN/HelveticaNeueCyr-Roman.woff") format("woff"), url("../fonts/HELVETICANEUECYR-ROMAN/HelveticaNeueCyr-Roman.ttf") format("truetype"); }
 
 @font-face {
   font-family: "HELVETICANEUECYR-BOLD";
   font-weight: bold;
   font-style: normal;
-  src: url("../fonts/HELVETICANEUECYR-BOLD/HELVETICANEUECYR-BOLD.eot");
-  src: url("../fonts/HELVETICANEUECYR-BOLD/HELVETICANEUECYR-BOLD.eot?#iefix") format("embedded-opentype"), url("../fonts/HELVETICANEUECYR-BOLD/HELVETICANEUECYR-BOLD.woff") format("woff"), url("../fonts/HELVETICANEUECYR-BOLD/HELVETICANEUECYR-BOLD.ttf") format("truetype"); }
+  src: url("../fonts/HELVETICANEUECYR-BOLD/HelveticaNeueCyr-Bold.eot");
+  src: url("../fonts/HELVETICANEUECYR-BOLD/HelveticaNeueCyr-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/HELVETICANEUECYR-BOLD/HelveticaNeueCyr-Bold.woff") format("woff"), url("../fonts/HELVETICANEUECYR-BOLD/HelveticaNeueCyr-Bold.ttf") format("truetype"); }
 
 @font-face {
   font-family: "HELVETICANEUECYR-MEDIUM";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/HELVETICANEUECYR-MEDIUM/HELVETICANEUECYR-MEDIUM.eot");
-  src: url("../fonts/HELVETICANEUECYR-MEDIUM/HELVETICANEUECYR-MEDIUM.eot?#iefix") format("embedded-opentype"), url("../fonts/HELVETICANEUECYR-MEDIUM/HELVETICANEUECYR-MEDIUM.woff") format("woff"), url("../fonts/HELVETICANEUECYR-MEDIUM/HELVETICANEUECYR-MEDIUM.ttf") format("truetype"); }
+  src: url("../fonts/HELVETICANEUECYR-MEDIUM/HelveticaNeueCyr-Medium.eot");
+  src: url("../fonts/HELVETICANEUECYR-MEDIUM/HelveticaNeueCyr-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/HELVETICANEUECYR-MEDIUM/HelveticaNeueCyr-Medium.woff") format("woff"), url("../fonts/HELVETICANEUECYR-MEDIUM/HelveticaNeueCyr-Medium.ttf") format("truetype"); }
 
 @font-face {
   font-family: "HELVETICANEUECYR-LIGHT";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/HELVETICANEUECYR-LIGHT/HELVETICANEUECYR-LIGHT.eot");
-  src: url("../fonts/HELVETICANEUECYR-LIGHT/HELVETICANEUECYR-LIGHT.eot?#iefix") format("embedded-opentype"), url("../fonts/HELVETICANEUECYR-LIGHT/HELVETICANEUECYR-LIGHT.woff") format("woff"), url("../fonts/HELVETICANEUECYR-LIGHT/HELVETICANEUECYR-LIGHT.ttf") format("truetype"); }
+  src: url("../fonts/HELVETICANEUECYR-LIGHT/HelveticaNeueCyr-Light.eot");
+  src: url("../fonts/HELVETICANEUECYR-LIGHT/HelveticaNeueCyr-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/HELVETICANEUECYR-LIGHT/HelveticaNeueCyr-Light.woff") format("woff"), url("../fonts/HELVETICANEUECYR-LIGHT/HelveticaNeueCyr-Light.ttf") format("truetype"); }
 
 @font-face {
   font-family: "HELVETICANEUECYR-LIGHTITALIC";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/HELVETICANEUECYR-LIGHTITALIC/HELVETICANEUECYR-LIGHTITALIC.eot");
-  src: url("../fonts/HELVETICANEUECYR-LIGHTITALIC/HELVETICANEUECYR-LIGHTITALIC.eot?#iefix") format("embedded-opentype"), url("../fonts/HELVETICANEUECYR-LIGHTITALIC/HELVETICANEUECYR-LIGHTITALIC.woff") format("woff"), url("../fonts/HELVETICANEUECYR-LIGHTITALIC/HELVETICANEUECYR-LIGHTITALIC.ttf") format("truetype"); }
+  src: url("../fonts/HELVETICANEUECYR-LIGHTITALIC/HelveticaNeueCyr-LightItalic.eot");
+  src: url("../fonts/HELVETICANEUECYR-LIGHTITALIC/HelveticaNeueCyr-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HELVETICANEUECYR-LIGHTITALIC/HelveticaNeueCyr-LightItalic.woff") format("woff"), url("../fonts/HELVETICANEUECYR-LIGHTITALIC/HelveticaNeueCyr-LightItalic.ttf") format("truetype"); }
 
 a, abbr, address, article, aside, audio, b,
 blockquote, body, canvas, caption, cite, code,
@@ -1350,7 +1350,7 @@ body {
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   /**/ }
 
 /* Medium Devices, Desktops */
@@ -1368,7 +1368,8 @@ body {
   .bg_img .header_block button {
     margin-left: 193px !important; }
   .section_1 .icons p {
-    padding: 30px 85px !important; }
+    padding: 30px 19px !important;
+    margin-left: 81px !important; }
   .section_2 {
     width: 100%;
     height: 890px; }
@@ -1716,6 +1717,9 @@ body {
       width: 100%;
       height: 740px !important;
       margin-top: 55px; }
+      .section_9 .sl_wrapper .sl_txt {
+        width: 695px;
+        height: 220px; }
       .section_9 .sl_wrapper .head_img {
         display: block;
         height: 137px; }
@@ -2277,7 +2281,10 @@ body {
             .popup .popup_circle .popup_circle-wrapper form input[type="submit"]:hover {
               background: #679B26; }
           .popup .popup_circle .popup_circle-wrapper form input[name="massege"] {
-            height: 94px; } }
+            height: 94px; }
+  .politic_popup {
+    top: 4%;
+    left: 7%; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -2564,7 +2571,12 @@ body {
     top: 1%;
     left: 15%;
     z-index: 2000;
-    display: none; } }
+    display: none; }
+  .politic_popup {
+    top: 4%;
+    left: 7%;
+    width: 662px;
+    height: 440px; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
@@ -3023,6 +3035,9 @@ body {
       width: 100%;
       height: 892px !important;
       margin-top: 55px; }
+      .section_9 .sl_wrapper .sl_txt {
+        width: 300px;
+        height: 220px; }
       .section_9 .sl_wrapper .head_img {
         display: block;
         height: 137px; }
@@ -3614,6 +3629,22 @@ body {
               background: #679B26; }
           .popup .popup_circle .popup_circle-wrapper form input[name="massege"] {
             height: 94px; }
+  .politic_popup {
+    top: 4%;
+    left: 7%;
+    width: 300px;
+    height: 562px; }
+    .politic_popup h2 {
+      font-family: "HELVETICANEUECYR-MEDIUM", sans-serif;
+      font-size: 19px !important; }
+    .politic_popup h3 {
+      font-size: 18px !important; }
+    .politic_popup ul {
+      font-size: 14px !important; }
+    .politic_popup p {
+      font-size: 14px !important; }
+    .politic_popup a {
+      font-size: 14px !important; }
   /* Custom, iPhone Retina */ }
 
 @media only screen and (max-width: 320px) {
@@ -4036,6 +4067,9 @@ body {
       width: 100%;
       height: 870px !important;
       margin-top: 55px; }
+      .section_9 .sl_wrapper .sl_txt {
+        width: 275px;
+        height: 220px; }
       .section_9 .sl_wrapper .head_img {
         display: block;
         height: 137px; }
@@ -4059,7 +4093,7 @@ body {
       .section_9 .sl_wrapper p {
         float: left;
         display: inline-block;
-        width: 300px !important;
+        width: 265px !important;
         font-family: "HELVETICANEUECYR-LIGHT", sans-serif;
         font-size: 14px;
         padding-bottom: 21px;
@@ -4076,7 +4110,8 @@ body {
           margin-left: 0px;
           margin-right: 0; }
           .section_9 .sl_wrapper .sl_img .sl_img-left img {
-            display: inline-block; }
+            display: inline-block;
+            width: 153px; }
           .section_9 .sl_wrapper .sl_img .sl_img-left p {
             display: inline-block;
             float: none;
@@ -4093,7 +4128,7 @@ body {
           margin-right: 0px; }
           .section_9 .sl_wrapper .sl_img .sl_img-right img {
             display: inline-block;
-            width: 151px; }
+            width: 156px; }
           .section_9 .sl_wrapper .sl_img .sl_img-right p {
             display: inline-block;
             float: none;
@@ -4561,4 +4596,18 @@ body {
     top: 1%;
     left: 0;
     z-index: 200;
-    display: none; } }
+    display: none; }
+  .politic_popup {
+    top: 4%;
+    left: 7%;
+    width: 277px;
+    height: 562px; }
+    .politic_popup h2 {
+      font-family: "HELVETICANEUECYR-MEDIUM", sans-serif;
+      font-size: 19px !important; }
+    .politic_popup h3 {
+      font-size: 18px !important; }
+    .politic_popup p {
+      font-size: 14px !important; }
+    .politic_popup a {
+      font-size: 14px !important; } }
